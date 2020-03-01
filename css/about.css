@@ -1,0 +1,35 @@
+*
+{
+    margin: 0 !important;
+    padding: 0;
+}
+html{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    position: relative;
+    font-family: 'Poppins', ;
+    /* min-height: 100vh; */
+    
+}
+
+h1,.head{
+    color: white;
+    text-align: center;
+    padding: 2% 5%;
+
+}
+p{
+    padding-top:20px ;
+    text-align: justify;
+    padding: 2% 5%;
+    min-height: 100%;
+    color: white;
+    line-height: 1.8;
+}
+
+ul{
+    text-align: center;
+}

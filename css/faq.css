@@ -1,0 +1,35 @@
+/* body{
+    background-color: #000;
+} */
+h1 {
+  padding-right: 7px;
+  color: white;
+  border-right: 7px solid #ffde59;
+  display: inline-block;
+  font-weight: 700;
+  font-family: "Montserrat";
+  margin-top: 30px;
+}
+.question {
+  color: #fb8e00;
+  font-family: "Montserrat";
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.answer {
+  color: white;
+  font-family: "Montserrat";
+  margin-top: 4px;
+}
+.query {
+  margin-top: 24px;
+}
+.content {
+  background-color: rgb(0, 0, 58);
+}
+.navbar-brand,
+.navbar {
+  background-color: rgb(0, 0, 58);
+  padding: 0.1em 0.3em;
+}

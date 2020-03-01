@@ -1,0 +1,12 @@
+.navbar-light .navbar-brand{
+    color:#7c8dd2;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(0, 136, 248);
+    font-size: 1.5em;
+
+}
+
+nav{
+    padding: 3% 0;
+}

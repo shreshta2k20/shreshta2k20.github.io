@@ -1,0 +1,25 @@
+body{
+    height: 100%;
+    text-align: center;
+    background-image:linear-gradient(to right,#141E30,#243B55);
+    color:white;
+    min-height: 100%;
+}
+.outer {
+    padding-top:5%;
+    
+}
+.technical{
+    padding: 0 7%;
+}
+
+.non-technical{
+    padding: 0 7%;
+}
+.card{
+    margin-bottom:30px;
+}
+.card-text,.card-title{
+    color: green;
+
+}
