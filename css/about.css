@@ -1,35 +1,59 @@
-*
-{
-    margin: 0 !important;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-html{
-    padding: 0;
-    margin: 0;
-    
+html {
+  padding: 0;
+  margin: 0;
 }
-body{
-    position: relative;
-    font-family: 'Poppins', ;
-    /* min-height: 100vh; */
-    
+body {
+  position: relative;
+  background-color: #00043a !important;
 }
 
-h1,.head{
-    color: white;
-    text-align: center;
-    padding: 2% 5%;
-
-}
-p{
-    padding-top:20px ;
-    text-align: justify;
-    padding: 2% 5%;
-    min-height: 100%;
-    color: white;
-    line-height: 1.8;
+.about {
+  margin: 2.5rem;
 }
 
-ul{
-    text-align: center;
+.about-head {
+  border-left: 5px solid;
+  font-family: "conthrax-sb";
+  padding-left: 7px;
+  border-left: 9px solid #0cec6a;
+}
+
+p {
+  font-family: "conthrax-sb";
+  margin-top: 1.3em;
+  text-align: justify;
+  line-height: 2em;
+}
+
+.about-content {
+  font-family: "conthrax-sb";
+  color: white;
+  font-size: 1.5em;
+  /* text-align: center; */
+}
+
+.gallery {
+  margin: 0 2.5em;
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    position: fixed;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 0.9em !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    margin: 5.67em 0 2em 0.5em;
+  }
 }
