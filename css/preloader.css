@@ -1,0 +1,34 @@
+.text {
+  color: #3693af;
+  text-align: center;
+}
+
+/*PRELOADING------------ */
+#overlayer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2000;
+  background: #000000;
+}
+
+.text {
+  position: relative;
+
+  font-size: 5em;
+}
+.text:before {
+  content: attr(data-text);
+  position: absolute;
+  overflow: hidden;
+  max-width: 7em;
+  white-space: nowrap;
+  color: #07d89d;
+  animation: loading 2s linear;
+}
+@keyframes loading {
+  0% {
+    max-width: 0;
+    color: #07d89d;
+  }
+}

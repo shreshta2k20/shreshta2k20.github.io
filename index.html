@@ -6,11 +6,12 @@
     <title>Shreshta | Techno-Cultural Fest</title>
     <meta name="description" content="Annual Technocultural Fest of MITS" />
     <meta
-      name="keywords"
-      content="webgl, three.js, meshline, animation, lines"
+      name="Shreshta"
+      content="shreshta,Shreshta 2k20, shreshta 2020, mits techfest, MUthoot Institute of Technology and Science Techfest, MITS techfest 2020"
     />
     <meta name="author" content="MITSIANS" />
     <link rel="shortcut icon" href="logo.ico" />
+
     <script>
       document.documentElement.className = "js";
       var supportsCssVars = function() {
@@ -33,11 +34,11 @@
           "Please view this demo in a modern browser that supports CSS Variables."
         );
     </script>
+
     <link
       rel="stylesheet"
       href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css"
     />
-    <link rel="stylesheet" href="./css/scroll-style.css" />
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -46,12 +47,15 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     />
+    <link rel="stylesheet" href="./css/preloader.css" />
+    <link href="./css/index-logo.css" rel="stylesheet" />
     <link href="./css/navbar-base.css" rel="stylesheet" />
     <link href="./css/vendors.css" rel="stylesheet" />
     <link href="./css/home-anime-demo5.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/pageloader.js"></script>
+
     <style>
       @font-face {
         font-family: conthrax-sb;
@@ -60,6 +64,12 @@
     </style>
   </head>
   <body>
+    <div id="overlayer">
+      <h1 class="text" data-text="SHRESHTA">SHRESHTA</h1>
+    </div>
+    <span class="loader">
+      <span class="loader-inner"> </span>
+    </span>
     <div>
       <svg class="hidden">
         <symbol id="icon-menu" viewBox="0 0 119 25">
@@ -76,8 +86,11 @@
         </symbol>
       </svg>
       <div class="content">
-        <div class="background">
-          <div></div>
+        <div class="background"></div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-4 fade-in">
+            <img src="logo1.png" class="img-responsive animated pulse" />
+          </div>
         </div>
       </div>
 
@@ -149,24 +162,8 @@
         </button>
       </nav>
     </div>
-
-    <!-- <div id="home" class="section "></div>
-    <div id="about" class="section">
-      <h1><span>ABOUT SHRESHTA</span></h1>  
-      <p class="about-content container">Shreshta 2k20 is the first ever inter collegiate Techno-Cultural Fest hosted by Muthoot Institute of Technology and Science. A technical showdown spanning over 48 hours.Shreshta provides the best stage for you to exhibit your skills, and to bring back with you something you’ve never experienced before!.</p>
-      
-    </div id="contact">
-    <div class="section">
-      <h1>GALLERY</h1> 
-      
-    </div>
-    <div class="section">
-      <h1>Contact Us</h1> 
-    </div  id="contact"> -->
-
     <script type="text/javascript" src="./js/vendors.js"></script>
     <script type="text/javascript" src="./js/homepage-demo5.js"></script>
-
     <script type="text/javascript" src=".js/TweenMax.min.js"></script>
     <script src="./js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="./js/navbar-demo.js"></script>
