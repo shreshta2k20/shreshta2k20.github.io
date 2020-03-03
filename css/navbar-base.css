@@ -6,7 +6,7 @@
 }
 
 body {
-  --color-text: #fff;
+  --color-text: #000 !important;
   --color-bg: #ffffff;
   --color-link: #fff;
   --color-link-hover: #50d890;
