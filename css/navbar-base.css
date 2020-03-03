@@ -246,6 +246,7 @@ main {
   width: 3rem;
   height: 2rem;
   background-color: #000;
+  border-radius: 6.5%;
 }
 
 .icon--close {
