@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>CE Events | Shreshta</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
     <link
@@ -18,11 +18,11 @@
         src: url(conthrax-sb.ttf);
       }
   </style>
-  <body>
+  <body  id="vanta">
     <div>
       <header class="bg-primary text-center py-5 mb-4">
         <div class="container">
-          <h1 class="font-weight-light text-white">
+          <h1 class="font-weight-light" style="color: black;">
             Civil Engineering
           </h1>
           <svg class="hidden">
@@ -60,7 +60,10 @@
                       Conselium
                     </h5>
                   </div>
-                </div></a
+                </div>
+                
+                
+                </a
               >
             </div>
 
@@ -191,5 +194,21 @@
     <script type="text/javascript" src="./js/TweenMax.min.js"></script>
     <script src="./js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="./js/navbar-demo.js"></script>
+    <script src="js/three.r95.min.js"></script>
+  <script src="js/vanta.net.min.js"></script>
+
+    <script>
+      VANTA.NET({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x000000,
+        backgroundColor: 0xffffff
+      })
+      </script>
   </body>
 </html>
