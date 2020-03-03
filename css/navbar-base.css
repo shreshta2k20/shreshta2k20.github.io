@@ -9,7 +9,7 @@ body {
   --color-text: #fff;
   --color-bg: #ffffff;
   --color-link: #fff;
-  --color-link-hover: #f20c40;
+  --color-link-hover: #50d890;
   --color-bg-item1: #15171b;
   --color-bg-item2: #1b2c75;
   --color-bg-item3: #0f1013;
@@ -324,12 +324,16 @@ main {
   transition: color 0.1s;
   margin: 0.25rem 0;
   display: block;
+  font-family: conthrax-sb;
+  color: white;
+  font-size: small;
 }
 
 .sidemenu__item-inner {
   display: block;
   transform: translate3d(0, 100%, 0);
   border: none !important;
+  margin: 0.25rem 0 !important;
 }
 
 .menu__item-map {
