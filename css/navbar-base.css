@@ -333,7 +333,7 @@ main {
   display: block;
   transform: translate3d(0, 100%, 0);
   border: none !important;
-  margin: 0.25rem 0 !important;
+  margin: 0.05rem 0 !important;
 }
 
 .menu__item-map {
