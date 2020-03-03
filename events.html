@@ -18,7 +18,7 @@
       }
     </style>
   </head>
-  <body>
+  <body id="vanta">
     <div>
       <header class="bg-primary text-center py-5 mb-4">
         <div class="container">
@@ -212,5 +212,21 @@
     <script type="text/javascript" src="./js/TweenMax.min.js"></script>
     <script src="./js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="./js/navbar-demo.js"></script>
+    <script src="js/three.r95.min.js"></script>
+    <script src="js/vanta.net.min.js"></script>
+
+    <script>
+      VANTA.NET({
+        el: "#vanta",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x000000,
+        backgroundColor: 0xffffff
+      })
+      </script>
   </body>
 </html>
