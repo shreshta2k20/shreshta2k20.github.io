@@ -22,7 +22,7 @@
     <div>
       <header class="bg-primary text-center py-5 mb-4">
         <div class="container">
-          <h1 class="font-weight-light">
+          <h1 class="font-weight-light" style="font-size: 2.3rem !important;">
             Electrical and Electronics Engineering
           </h1>
           <svg class="hidden">
@@ -48,52 +48,73 @@
           <div class="row">
             <!-- Team Member 1 -->
             <div class="col-xl-4 col-md-6 mb-4">
-              <a href="">
-                <div class="card border-0 shadow">
-                  <img
-                    src="img/events/eee/electrocave.jpeg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0 text-dark">
-                      Electrocave
-                    </h5>
-                  </div>
-                </div></a
-              >
+              <div class="card border-0 shadow">
+                <img
+                  src="img/events/eee/electrocave.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 text-dark">
+                    Electrocave
+                  </h5>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
+                  Register
+                </button>
+              </div>
             </div>
 
             <!-- Team Member 2 -->
             <div class="col-xl-4 col-md-6 mb-4">
-              <a href="">
-                <div class="card border-0 shadow">
-                  <img
-                    src="img/events/eee/robowar.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0 text-dark">Robowar</h5>
-                  </div>
-                </div></a
-              >
+              <div class="card border-0 shadow">
+                <img
+                  src="img/events/eee/robowar.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 text-dark">Robowar</h5>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#myModal1"
+                >
+                  Register
+                </button>
+              </div>
             </div>
             <!-- Team Member 2 -->
             <div class="col-xl-4 col-md-6 mb-4">
-              <a href="">
-                <div class="card border-0 shadow">
-                  <img
-                    src="img/events/eee/soccer_race.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0 text-dark">Soccer Race</h5>
-                  </div>
-                </div></a>
+              <div class="card border-0 shadow">
+                <img
+                  src="img/events/eee/soccer_race.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 text-dark">Soccer Race</h5>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#myModal2"
+                >
+                  Register
+                </button>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
 
       <nav class="menu">
@@ -190,6 +211,144 @@
         backgroundColor: 0xffffff
       })
       </script>
+
+
+      <!--Modal for Electrocave-->
+      <div class="modal bottom-sheet" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Electrocave</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  src="img/events/eee/electrocave.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                /><div></div>
+                &#8226; Treasure hunt scenario event (solving electrical puzzles and practical
+                problems).<br />
+                &#8226; Contestants can form a team of 4 members.<br />
+                &#8226;The event has 4 rounds - Complete the task in least possible time.<br /><br />
+                <div class="row">
+                  <div class="col">
+                    Prize worth: 15,000/-<br />
+                  </div>
+                  <div class="col">
+                    <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    Register
+                  </button>
+                  </div>
+                </div>
+                <br />
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal for Robowar-->
+      <div class="modal bottom-sheet" id="myModal1" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Robowar</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  src="img/events/eee/robowar.jpg"
+                  class="card-img-top"
+                  alt="..."
+                /><div></div>
+                &#8226; Manually controlled robots battle each other in a specially built battle arena.<br />
+                &#8226; Contestants can form a team of 5 members.<br /><br />
+                &#8226; The event has 5 knock out rounds - Robot is declared victorious if its opponent is
+                immobilized.
+                <br /><br />
+                <div class="row">
+                  <div class="col">
+                    Prize worth: 20,000/-<br />
+                  </div>
+                  <div class="col">
+                    <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    Register
+                  </button>
+                  </div>
+                </div>
+                <br />
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Modal for Soccer Race-->
+      <div class="modal bottom-sheet" id="myModal2" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Soccer Race</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  src="img/events/eee/soccer_race.jpg"
+                  class="card-img-top"
+                  alt="..."
+                /><div></div>
+                &#8226; Soccer match using RC cars.<br />
+                &#8226; Match between 2 teams having 3 members.<br /><br />
+                &#8226; Each match will be of 5 minutes duration.
+                <br /><br />
+                <div class="row">
+                  <div class="col">
+                    <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    Register
+                  </button>
+                  </div>
+                </div>
+                <br />
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </body>
 </html>
-       

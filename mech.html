@@ -22,7 +22,7 @@
     <div>
       <header class="bg-primary text-center py-5 mb-4">
         <div class="container">
-          <h1 class="font-weight-light">
+          <h1 class="font-weight-light" style="font-size: 2.3rem !important;">
             Mechanical Engineering
           </h1>
           <svg class="hidden">
@@ -48,52 +48,73 @@
           <div class="row">
             <!-- Team Member 1 -->
             <div class="col-xl-4 col-md-6 mb-4">
-              <a href="">
-                <div class="card border-0 shadow">
-                  <img
-                    src="img/events/mech/full_throttle.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0 text-dark">
-                      Full Throttle
-                    </h5>
-                  </div>
-                </div></a
-              >
+              <div class="card border-0 shadow">
+                <img
+                  src="img/events/mech/full_throttle.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 text-dark">
+                    Full Throttle
+                  </h5>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#myModal"
+                >
+                  Register
+                </button>
+              </div>
             </div>
 
             <!-- Team Member 2 -->
             <div class="col-xl-4 col-md-6 mb-4">
-              <a href="">
-                <div class="card border-0 shadow">
-                  <img
-                    src="img/events/mech/project_x.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0 text-dark">Project X</h5>
-                  </div>
-                </div></a
-              >
+              <div class="card border-0 shadow">
+                <img
+                  src="img/events/mech/project_x.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 text-dark">Project X</h5>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#myModal1"
+                >
+                  Register
+                </button>
+              </div>
             </div>
             <!-- Team Member 2 -->
             <div class="col-xl-4 col-md-6 mb-4">
-              <a href="">
-                <div class="card border-0 shadow">
-                  <img
-                    src="img/events/mech/drafts_man.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0 text-dark">Drafts Man</h5>
-                  </div>
-                </div></a>
+              <div class="card border-0 shadow">
+                <img
+                  src="img/events/mech/drafts_man.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 text-dark">Draftsman</h5>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#myModal2"
+                >
+                  Register
+                </button>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
 
       <nav class="menu">
@@ -190,5 +211,146 @@
         backgroundColor: 0xffffff
       })
       </script>
+
+
+      <!--Modal for Electrocave-->
+      <div class="modal bottom-sheet" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Full Throttle</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  src="img/events/mech/full_throttle.jpg"
+                  class="card-img-top"
+                  alt="..."
+                /><div></div>
+                &#8226;Remote control car racing event.<br />
+                &#8226; Contestants can form a team of 4 members.<br />
+                &#8226;The event has 4 levels, which consist of a selection round, semi- finals and
+                finals.<br /><br />
+                <div class="row">
+                  <div class="col">
+                    Prize worth: 15,000/-<br />
+                  </div>
+                  <div class="col">
+                    <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    Register
+                  </button>
+                  </div>
+                </div>
+                <br />
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal for Robowar-->
+      <div class="modal bottom-sheet" id="myModal1" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Project X</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  src="img/events/mech/project_x.jpg"
+                  class="card-img-top"
+                  alt="..."
+                /><div></div>
+                &#8226; Engineering project presentation and demo.<br />
+                &#8226; Best projects will be selected by the expert panel consisting of faculties.
+                <br /><br />
+                <div class="row">
+                  <div class="col">
+                    Prize worth: 25,000/-<br />
+                  </div>
+                  <div class="col">
+                    <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    Register
+                  </button>
+                  </div>
+                </div>
+                <br />
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Modal for Soccer Race-->
+      <div class="modal bottom-sheet" id="myModal2" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Draftsman</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  src="img/events/mech/drafts_man.jpg"
+                  class="card-img-top"
+                  alt="..."
+                /><div></div>
+                &#8226; Participants will be given with a problem statement, regarding design of a
+                product.<br />
+                &#8226; Better designs will be selected to final round, where real prototype needs to be
+                manufactured.
+                <br /><br />
+                <div class="row">
+                  <div class="col">
+                    Prize worth: 25,000/-<br />
+                  </div>
+                  <div class="col">
+                    <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    Register
+                  </button>
+                  </div>
+                </div>
+                <br />
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </body>
 </html>

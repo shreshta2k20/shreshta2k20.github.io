@@ -22,7 +22,7 @@
     <div>
       <header class="bg-primary text-center py-5 mb-4">
         <div class="container">
-          <h1 class="font-weight-light">
+          <h1 class="font-weight-light" style="font-size: 2.3rem !important;">
             Electronics and Communications Engineering
           </h1>
           <svg class="hidden">
@@ -48,69 +48,94 @@
           <div class="row">
             <!-- Team Member 1 -->
             <div class="col-xl-4 col-md-6 mb-4">
-              <a href="">
-                <div class="card border-0 shadow">
-                  <img
-                    src="img/events/ec/lights_out.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0 text-dark">
-                      Lights Out
-                    </h5>
-                  </div>
-                </div></a
-              >
-            </div>
-
-            <div class="col-xl-4 col-md-6 mb-4">
-                <a href="">
-                  <div class="card border-0 shadow">
-                    <img
-                      src="img/events/ec/treasureotronics.jpg"
-                      class="card-img-top"
-                      alt="..."
-                    />
-                    <div class="card-body text-center">
-                      <h5 class="card-title mb-0 text-dark">
-                        Treasure O Tronics
-                      </h5>
-                    </div>
-                  </div></a
+              <div class="card border-0 shadow">
+                <img
+                  src="img/events/ec/lights_out.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 text-dark">
+                    Lights Out
+                  </h5>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#myModal"
                 >
+                  Register
+                </button>
               </div>
+            </div>
 
             <!-- Team Member 2 -->
             <div class="col-xl-4 col-md-6 mb-4">
-              <a href="">
-                <div class="card border-0 shadow">
-                  <img
-                    src="img/events/ec/drone_race.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0 text-dark">Drone Race</h5>
-                  </div>
-                </div></a
-              >
+              <div class="card border-0 shadow">
+                <img
+                  src="img/events/ec/treasureotronics.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 text-dark">Treasure O Tronics</h5>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#myModal1"
+                >
+                  Register
+                </button>
+              </div>
             </div>
             <!-- Team Member 2 -->
             <div class="col-xl-4 col-md-6 mb-4">
-              <a href="">
-                <div class="card border-0 shadow">
-                  <img
-                    src="img/events/ec/vr.jpg"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body text-center">
-                    <h5 class="card-title mb-0 text-dark">VR Experience</h5>
-                  </div>
-                </div></a>
+              <div class="card border-0 shadow">
+                <img
+                  src="img/events/ec/drone_race.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 text-dark">Drone Race</h5>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#myModal2"
+                >
+                  Register
+                </button>
+              </div>
             </div>
+            <!-- Team Member 2 -->
+            <div class="col-xl-4 col-md-6 mb-4">
+              <div class="card border-0 shadow">
+                <img
+                  src="img/events/ec/vr.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-0 text-dark">Virtual Reality</h5>
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-toggle="modal"
+                  data-target="#myModal3"
+                >
+                  Register
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
 
 
       <nav class="menu">
@@ -207,5 +232,187 @@
         backgroundColor: 0xffffff
       })
       </script>
+
+
+      <!--Modal for Lights Out-->
+      <div class="modal bottom-sheet" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Lights Out</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  src="img/events/ec/lights_out.jpg"
+                  class="card-img-top"
+                  alt="..."
+                /><div></div>
+                &#8226; Contestants can form a team of 3 members.<br />
+                &#8226; The event has 6 rounds.<br />
+                &#8226; The mission is to defuse a bomb as fast as possible.<br /><br />
+                <div class="row">
+                  <div class="col">
+                    Prize worth: 10,000/-<br />
+                  </div>
+                  <div class="col">
+                    <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    Register
+                  </button>
+                  </div>
+                </div>
+                <br />
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal for Treasure O Tronics-->
+      <div class="modal bottom-sheet" id="myModal1" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Treasure O Tronics</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  src="img/events/ec/treasureotronics.jpg"
+                  class="card-img-top"
+                  alt="..."
+                /><div></div>
+                &#8226; Contestants can form a team of 4 members.<br />
+                &#8226; The event has 8 rounds.<br /><br />
+                &#8226; The mission is to find a key. The event consists of rounds like gear train, laser
+                vibe, circuitx, devils follow code red, ennpassant, google it, the eclipse.
+                <br /><br />
+                <div class="row">
+                  <div class="col">
+                    Prize worth: 10,000/-<br />
+                  </div>
+                  <div class="col">
+                    <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    Register
+                  </button>
+                  </div>
+                </div>
+                <br />
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal for Drone Race-->
+      <div class="modal bottom-sheet" id="myModal2" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Drone Race</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  src="img/events/ec/drone_race.jpg"
+                  class="card-img-top"
+                  alt="..."
+                /><div></div>
+                &#8226;Contestants can form a team of 4 members.<br />
+                &#8226; The event has 1 round.<br />
+                A starting position and final position along with the track will be given. Various
+                obstacles will be placed in the track and the one who reaches with less time and
+                without touching the obstacle wins the game.
+                <br /><br />
+                <div class="row">
+                  <div class="col">
+                    Prize worth: 25,000/-<br />
+                  </div>
+                  <div class="col">
+                    <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    Register
+                  </button>
+                  </div>
+                </div>
+                <br />
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal for VR Experience-->
+      <div class="modal bottom-sheet" id="myModal3" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">VR Experience</h4>
+              <button type="button" class="close" data-dismiss="modal">
+                &times;
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <img
+                  src="img/events/ec/vr.jpg"
+                  class="card-img-top"
+                  alt="..."
+                /><div></div>
+                &#8226; An event combined with Computer Science Department.<br /><br />
+                <div class="row">
+                  <div class="col">
+                    <button
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    Register
+                  </button>
+                  </div>
+                </div>
+                <br />
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </body>
 </html>
