@@ -1,15 +1,13 @@
 .fade-in {
-  align-content: center;
   animation: fadeIn ease 9s;
-  -webkit-animation: fadeIn ease 11s;
+  -webkit-animation: fadeIn ease 8s;
   -moz-animation: fadeIn ease 11s;
   -o-animation: fadeIn ease 11s;
   -ms-animation: fadeIn ease 11s;
-  margin:auto;
 
 }
 .animated {
-  animation-duration: 10s !important;
+  animation-duration: 4s !important;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
 }
@@ -33,40 +31,6 @@
 .pulse {
   animation-name: pulse;
   animation-duration: 1s;
-}
-.img-responsive {
-  width: 100px;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%,-50%);
-}
-
-@media (min-width: 768px) {
-  .col-md-4 {
-    flex: none !important;
-    max-width: none !important;
-  }
-}
-@media (max-width: 550px) {
-  .img-responsive {
-    width: 75px;
-  }
-  .fade-in {
-    margin-top: 155px;
-  }
-}
-@media (max-width: 330px) {
-  .img-responsive {
-    width: 75px;
-  }
-  .fade-in {
-    margin-top: 130px;
-  }
-}
-@media (max-height: 400px) {
-  .fade-in {
-    margin-top: 1px;
-  }
 }
 
 @keyframes fadeIn {
@@ -125,11 +89,15 @@
   height: 100%;
 }
 .centerimg{
-  width: 250px;
+  width: 300px;
 }
 
 .box {
   width: 300px;
   margin: 5px;
   text-align: center;     /* will center text in <p>, which is not a flex item */
+}
+.year{
+  color: white;
+  font-family: conthrax-sb;
 }
