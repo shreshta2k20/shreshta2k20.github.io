@@ -370,12 +370,13 @@
         },
         1
       );
-    var C = new a.a("Shreshta", {
+    var C = new a.a("", {
       color: "#FFFFFF",
       size: P.a.isMobile ? 0.08 : 0.1,
-      wireframe: !0,
-      opacity: 1
-      // font : "Trade Winds"
+      // wireframe: !0,
+
+      opacity: 1,
+      // font
     });
     (C.position.x -= 0.5 * C.basePosition), L.add(C);
     var R = new i.a();
