@@ -5,7 +5,8 @@
   -moz-animation: fadeIn ease 11s;
   -o-animation: fadeIn ease 11s;
   -ms-animation: fadeIn ease 11s;
-  margin-top: 50px;
+  margin:auto;
+
 }
 .animated {
   animation-duration: 10s !important;
@@ -34,7 +35,10 @@
   animation-duration: 1s;
 }
 .img-responsive {
-  width: 250px;
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
 }
 
 @media (min-width: 768px) {
@@ -45,10 +49,23 @@
 }
 @media (max-width: 550px) {
   .img-responsive {
-    width: 200px;
+    width: 75px;
   }
   .fade-in {
-    margin-top: 100px;
+    margin-top: 155px;
+  }
+}
+@media (max-width: 330px) {
+  .img-responsive {
+    width: 75px;
+  }
+  .fade-in {
+    margin-top: 130px;
+  }
+}
+@media (max-height: 400px) {
+  .fade-in {
+    margin-top: 1px;
   }
 }
 
@@ -98,4 +115,21 @@
   100% {
     opacity: 1;
   }
+}
+
+#container {
+  display: flex;           /* establish flex container */
+  flex-direction: column;  /* make main axis vertical */
+  justify-content: center; /* center items vertically, in this case */
+  align-items: center;     /* center items horizontally, in this case */
+  height: 100%;
+}
+.centerimg{
+  width: 250px;
+}
+
+.box {
+  width: 300px;
+  margin: 5px;
+  text-align: center;     /* will center text in <p>, which is not a flex item */
 }
