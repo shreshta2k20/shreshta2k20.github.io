@@ -6,13 +6,9 @@ html {
   padding: 0;
   margin: 0;
 }
-body {
-  position: relative;
-}
 
-#particles-js {
-  height: 100%;
-  background-color: #181e2d;
+h1 {
+  color: black !important;
 }
 
 .about {
@@ -24,6 +20,7 @@ body {
   font-family: "conthrax-sb";
   padding-left: 7px;
   border-left: 9px solid #0cec6a;
+  color: black !important;
 }
 
 p {
@@ -35,7 +32,6 @@ p {
 
 .about-content {
   font-family: "conthrax-sb";
-  color: white;
   font-size: 1.5em;
   /* text-align: center; */
 }

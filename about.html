@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -47,7 +47,7 @@
     </style>
   </head>
 
-  <body id="particles-js">
+  <body id="vanta">
     <div>
       <div class="about">
         <!-- <nav class="navbar  ">
@@ -167,7 +167,22 @@
     <script type="text/javascript" src="./js/TweenMax.min.js"></script>
     <script src="./js/imagesloaded.pkgd.min.js"></script>
     <script type="text/javascript" src="./js/navbar-demo.js"></script>
-    <script type="text/javascript" src="particles.js"></script>
     <script type="text/javascript" src="app.js"></script>
+    <script src="js/three.r95.min.js"></script>
+    <script src="js/vanta.net.min.js"></script>
+
+<script>
+    VANTA.NET({
+      el: "#vanta",
+      mouseControls: true,
+      touchControls: true,
+      minHeight: 200.0,
+      minWidth: 200.0,
+      scale: 1.0,
+      scaleMobile: 1.0,
+      color: 0x000000,
+      backgroundColor: 0xffffff
+    })
+</script>
   </body>
 </html>
