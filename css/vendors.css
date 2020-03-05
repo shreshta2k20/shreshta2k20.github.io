@@ -477,5 +477,6 @@ a:hover {
 @media only screen and (max-width:500px){
   .topleft{
     width: 140px;
+    opacity: 0.;
   }
 }
