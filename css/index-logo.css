@@ -95,7 +95,7 @@
 .box {
   /* width: 300px; */
   margin: 5px;
-  max-width: 51px;
+  max-width: 511px;
   text-align: center;     /* will center text in <p>, which is not a flex item */
 }
 .year{
