@@ -101,3 +101,12 @@
   color: white;
   font-family: conthrax-sb;
 }
+.notice{
+  font-family: conthrax-sb;
+}
+
+@media screen and (min-width: 480px) {
+  .notice{
+    text-align: justify;
+  }
+}
